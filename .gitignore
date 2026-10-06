@@ -5,3 +5,5 @@ compiled/
 *.bak
 \#*
 .\#*
+public/
+resources/_gen/

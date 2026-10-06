@@ -1,0 +1,38 @@
+theme = "blowfish"
+title = "Vive Infórmate"
+paginate = 5
+locale = "es-mx"
+
+[params]
+  description = "Software Engineer | Realidad cruda"
+  colorScheme = "dark"
+  colorAccent = "green"
+
+[params.author]
+  name = "Nelson Abner"
+  bio = "Code, trauma & truth."
+
+[params.homepage]
+  layout = "hero"
+  showFeatured = true
+  showRecent = true
+  showSections = true
+
+[params.footer]
+  showCopyright = true
+  showThemeAttribution = false
+
+[params.social]
+  github = "nelsonamp"
+  linkedin = "in/resfdsf"
+
+[params.customCSS]
+  custom = ["css/custom.css"]
+
+[params.customJS]
+  custom = ["js/clock.js"]
+
+[[menu.main]]
+  name = "Entradas"
+  pageRef = "/posts"
+  weight = 10
