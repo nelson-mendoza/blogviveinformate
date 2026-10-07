@@ -1,0 +1,38 @@
+body { background-color: #050505 !important; }
+.prose { color: #cccccc !important; }
+code { background: #111 !important; color: #00ff00 !important; }
+
+/* Estilos para imágenes */
+.article-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 0 4px 20px rgba(0, 255, 0, 0.1);
+}
+
+/* Animación de "Latido/Respiración" para el cuerpo */
+.anim-pulse {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #00ff00 0%, transparent 70%);
+    border-radius: 50%;
+    margin: 20px auto;
+    animation: pulse-bio 2s infinite ease-in-out;
+}
+
+@keyframes pulse-bio {
+    0% { transform: scale(0.9); opacity: 0.5; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+    100% { transform: scale(0.9); opacity: 0.5; }
+}
+
+/* Contenedor para simular "lo que pasa en el cuerpo" */
+.body-info-box {
+    border: 1px solid #333;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #111;
+    margin: 2rem 0;
+}

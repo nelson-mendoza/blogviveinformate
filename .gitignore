@@ -2,3 +2,12 @@ public/
 resources/_gen/
 hugo_stats.json
 .hugo_build.lock
+.DS_Store
+compiled/
+/doc/
+*~
+*.bak
+\#*
+.\#*
+public/
+resources/_gen/
