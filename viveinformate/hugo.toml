@@ -1,0 +1,77 @@
+baseURL = "https://nelson-mendoza.github.io/blogviveinformate/"
+languageCode = "es-mx"
+defaultContentLanguage = "es"
+title = "Vive Infórmate"
+theme = "blowfish"
+enableRobotsTXT = true
+
+# ── Menú y paginación ──────────────────────────────
+[pagination]
+pagerSize = 5
+
+summaryLength = 20
+
+# ── Parámetros del sitio ───────────────────────────
+[params]
+title = "Vive Infórmate"
+description = "Un blog sobre salud mental, tecnología y la vida real. No estás solo."
+keywords = ["blog", "salud mental", "tecnología", "ciberseguridad", "México"]
+colorScheme = "slate"
+colorShades = "blue"
+appearanceDateFrom = "2026-10-06"
+showThemeAttribution = false
+indexParams = ["title", "summary"]
+articleParams = ["date", "readingTime", "relativeLastModified", "tags"]
+sharingLinks = ["twitter", "linkedin"]
+
+[params.author]
+name = "Nelson Mendoza"
+headline = "Escribo para que nadie se sienta solo"
+
+[params.thumbnail]
+preposition = "en"
+
+# ── Enlaces sociales (ACTUALIZA linkedin con tu perfil real) ──
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/nelson-mendoza"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/TU-USUARIO"   # ⚠️ cambia esto
+
+[[params.social]]
+name = "Email"
+icon = "envelope"
+url = "mailto:contacto@viveinformate.mx"
+
+# ── Navegación ─────────────────────────────────────
+[[menu.main]]
+identifier = "inicio"
+name = "Inicio"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+identifier = "acercade"
+name = "Acerca de mí"
+url = "/acercade/"
+weight = 3
+
+# ── Taxonomías ─────────────────────────────────────
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# ── Markup ─────────────────────────────────────────
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
