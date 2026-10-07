@@ -10,10 +10,16 @@ Blog personal sobre **salud mental, tecnología y ciberseguridad**, escrito desd
 - [Hugo](https://gohugo.io/) + tema Blowfish
 - Publicado con GitHub Pages
 
+## Cómo escribir (sin código)
+
+👉 Guía completa para publicar solo escribiendo: **[viveInformate/COMO_ESCRIBIR.md](viveInformate/COMO_ESCRIBIR.md)**
+
+En resumen: crea un archivo `.md` en `viveInformate/content/posts/`, copia las líneas iniciales (`title`, `date`, `draft`...) de cualquier post existente, escribe tu texto y cambia `draft = true` a `draft = false` cuando quieras publicar.
+
 ## Cómo editar localmente
 
 ```bash
-cd viveinformate
+cd viveInformate
 hugo server -D        # vista previa en http://localhost:1313
 hugo                  # generar sitio estático
 ```
